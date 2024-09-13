@@ -25,7 +25,7 @@ def matrix_multiply(A, B):
     return C
 
 
-def checkResult(A, B, C):
+def check_result(A, B, C):
     A = np.array(A)
     B = np.array(B)
     C = np.array(C)
@@ -39,4 +39,4 @@ if __name__ == "__main__":
 
     C = matrix_multiply(A, B)
 
-    checkResult(A, B, C)
+    check_result(A, B, C)
