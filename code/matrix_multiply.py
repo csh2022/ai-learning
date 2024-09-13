@@ -10,7 +10,6 @@ def matrix_multiply(A, B):
     m = len(A)
     n = len(A[0])
     p = len(B[0])
-
     C = [[0 for _ in range(p)] for _ in range(m)]
 
     # A: m*n
@@ -36,7 +35,6 @@ def check_result(A, B, C):
 if __name__ == "__main__":
     A = [[1, 2, 3], [1, 2, 3]]  # 2*3
     B = [[1, 2], [1, 2], [1, 2]]  # 3*2
-
     C = matrix_multiply(A, B)
 
     check_result(A, B, C)
